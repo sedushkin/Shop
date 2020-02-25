@@ -400,7 +400,7 @@ letter-spacing: 0.03em;
  }
 .subscribe_block_content_left {
     display: flex;
-    /*justify-content: space-between;*/
+    
 }
 .subscribe_block_content_left_img {
 
@@ -486,7 +486,8 @@ width: 426px;
     color: rgba(255, 255, 255, 1);
     text-align: center;
     letter-spacing: 0.03em;
-    line-height: 46px;    
+    line-height: 46px;
+    margin-left: -52px;    
 }
 
 
@@ -588,4 +589,114 @@ line-height: 59px;
 .social_pics:hover {
     background-color: rgba(241, 109, 127, 1);
 
+}
+
+.product_page_title {
+    height: 148px;
+    background-color: rgba(248, 243, 244, 1);
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+
+.product_page_title_name {
+    font-size: 24px;
+    font-weight: 900;
+    color: rgba(241, 109, 127, 1);
+    text-align: center;
+    line-height: 18px;
+    text-transform: uppercase;
+
+}
+.product_page_breadcrumbs {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(99, 99, 99, 1);
+    text-align: center;
+    line-height: 11px;
+    text-transform: uppercase;
+}
+.product_page_breadcrumbs  span{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(241, 109, 127, 1);
+    text-align: center;
+    line-height: 11px;
+    text-transform: uppercase;
+}
+.product_photo_slider {
+    height: 777px;
+    background-color: rgba(247, 247, 247, 1);
+    border: 1px solid rgba(234, 234, 234, 1);
+    display: flex;
+    justify-content: center;
+}
+.product_photo {
+    height: 724px;
+    width: 597px;
+
+}
+.product_description {
+height: 730px;
+width: 1141px;
+background-color: rgba(255, 255, 255, 1);
+border: 1px solid rgba(234, 234, 234, 1);
+margin-top: -86px;
+
+}
+.collection_name {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(241, 109, 127, 1);
+    text-align: center;
+    line-height: 24px
+}
+.product_name {
+    font-size: 18px;
+    font-weight: 900;
+    color: rgba(77, 77, 77, 1);
+    text-align: center;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.product_description_block {
+    height: 130px;
+    width: 625px;
+    
+}
+.product_description_text {
+    height: 130px;
+    width: 625px;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(94, 94, 94, 1);
+    text-align: center;
+    line-height: 24px;
+
+}
+.product_material_and_designer {
+    display: flex;
+    justify-content: space-between;
+}
+.product_material_and_designer_text {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(185, 185, 185, 1);
+    text-align: center;
+    line-height: 24px;
+}
+.product_material_and_designer_text span {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(47, 47, 47, 1);
+    text-align: center;
+    line-height: 24px;
+}
+.product_description_price {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(239, 91, 112, 1);
+    text-align: center;
+    line-height: 24px;
 }
