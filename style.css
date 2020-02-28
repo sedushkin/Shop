@@ -853,7 +853,89 @@ line-height: 24px;
     border: 1px solid rgba(234, 234, 234, 1);
     padding-left: 14px;
     font-size: 14px;
-color: rgba(188, 188, 188, 1);
+    color: rgba(188, 188, 188, 1);
+    line-height: 24px;
+}
 
-line-height: 24px;
+.section_adress {
+    margin-top: 89px;
+    width: 974px;
+    
+
+}
+.section_adress_box {
+    
+}
+.section_adress_title {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(34, 34, 34, 1);
+    text-transform: uppercase;
+}
+.shipping_adress_block {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 79px;
+    border-bottom: 1px solid rgba(232, 232, 232, 1);
+    padding-top: 39px;
+    padding-left: 35px;
+
+}
+.shipping_adress_block_left {
+    
+    
+}
+.shipping_adress_block_right {
+
+}
+
+.shipping_adress_block_text {
+    font-size: 13px;
+    color: rgba(34, 34, 34, 1);
+    text-transform: uppercase;
+}
+.shipping_adress_block_subtext {
+    font-size: 13px;
+    color: rgba(179, 178, 178, 1);
+    line-height: 20px;
+}
+.who_checkout {
+    font-size: 12px;
+    color: rgba(34, 34, 34, 1);
+    text-transform: uppercase;
+}
+.continue_button_box {
+
+    height: 50px;
+    width: 180px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(234, 234, 234, 1);
+    margin-top: 38px;
+}
+.continue_button_box:hover {
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+.continue_button_box_text {
+    font-size: 14px;
+font-weight: bold;
+color: rgba(74, 74, 74, 1);
+text-transform: uppercase;
+}
+.required_red {
+    font-size: 13px;
+color: rgba(255, 13, 13, 1);
+line-height: 12px;
+}
+.style_border {
+    height: 45px;
+    width: 390px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(234, 234, 234, 1);
+}
+.style_checkbox {
+    height: 14px;
+    width: 14px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(85, 85, 85, 1);
+    border-radius: 14px;
 }
