@@ -54,7 +54,7 @@ a {
     transform: scale(1.1) rotate(360deg);
     transition-delay: 500ms;
     transition-timing-function: ease-out;
-   
+
 }
 .logo_red_letter{
     font-size: 27px;
@@ -360,6 +360,10 @@ details[open] summary {
 
 .banner_featured_product:hover {
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
 
 }
 
