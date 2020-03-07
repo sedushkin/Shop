@@ -42,8 +42,8 @@
 </header>
 <nav class="nav center">
     <ul class="menu">
-        <li class="menu__list"><a class="menu__link" href="#">Home </a></li>
-        <li class="menu__list"><a class="menu__link" href="#">Man </a></li>
+        <li class="menu__list"><a class="menu__link" href="index.html">Home </a></li>
+        <li class="menu__list"><a class="menu__link" href="product1.html">Man </a></li>
         <li class="menu__list"><a class="menu__link" href="#">Women </a></li>
         <li class="menu__list"><a class="menu__link" href="#">Kids </a></li>
         <li class="menu__list"><a class="menu__link" href="#">Accoseriese </a></li>
@@ -57,14 +57,16 @@
         <p>New Arrivals</p>
     </div>
     <nav class="product_page_breadcrumbs">
-        <p>Home / Men / <span>New Arrivals</span></p>
+        <p>
+            <a href="index.html">Home</a> /
+            <a href="product1.html">Men</a> / <span>New Arrivals</span></p>
     </nav>
 </section>
 
 <div class="category">
     <nav>
         <details>
-            <summary class="category_name">
+            <summary class="category_name category_name_active">
                 Category
             </summary>
 
@@ -95,19 +97,98 @@
 
     <section>
     <div class="top_filter">
-        <div>
-            <div class="trending_now">
 
-            </div>
-            <div class="size">
+            <div class="top_filter_block">
+                <div class="top_filter_block_terndingnow">
+                    <p class="trending_now">
+                        <p class="trending_now_zagolovok">Trending now</p>
+                    <p class="trending_now_slash"> <a class="trending_now_text" href="#">Bohemian</a>
+                        /
+                        <a class="trending_now_text" href="#">Floral</a>
+                        /
+                        <a class="trending_now_text" href="#">Lace</a>
+                    </p>
+                    <p class="trending_now_slash">
+                        <a class="trending_now_text" href="#">Floral</a>
+                        /
+                        <a class="trending_now_text" href="#">Lace</a>
+                        /
+                        <a class="trending_now_text" href="#">Bohemian</a>
+                    </p>
+                </div>
 
-            </div>
-            <div class="price_roller">
 
+
+                <div class="size">
+                    <p>SIZE</p>
+                    <form action="#">
+                        <fieldset class="size_box no_border">
+                            <p class="size_box_text">
+                                <label for="XXS">
+                                    <input id="XXS" type="checkbox">XXS
+                                </label>
+                                <label for="XS">
+                                    <input id="XS" type="checkbox">XXS
+                                </label>
+                                <label for="S">
+                                    <input id="S" type="checkbox">XXS
+                                </label>
+                                <label for="M">
+                                    <input id="M" type="checkbox">XXS
+                                </label>
+                            </p>
+                            <p>
+                                <label for="L">
+                                    <input id="L" type="checkbox">XXS
+                                </label>
+                                <label for="XL">
+                                    <input id="XL" type="checkbox">XXS
+                                </label>
+                                <label for="XXL">
+                                    <input id="XXL" type="checkbox">XXS
+                                </label>
+
+                            </p>
+
+
+
+
+                        </fieldset>
+
+
+
+                    </form>
+                </div>
+                <div class="price_roller">
+                    PRICE
+                    <form action="#">
+                        <fieldset class="no_border">
+                            <label for="range"><input id="range" type="range" value="400" step="1"></label>
+
+                        </fieldset>
+                    </form>
+                </div>
             </div>
-        </div>
+
         <div class="sort_by">
-            <div></div>
+            <div class="sort_by_left_padding">
+                <label for="sort_by">Sort By</label>
+                <select name="sort_by" id="sort_by">
+                    <option value="name">Name</option>
+                </select>
+            </div>
+            <div class="sort_by_right_padding">
+                <label for="show_by">Show</label>
+                <select name="show_by" id="show_by">
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="max">All</option>
+
+                </select>
+            </div>
         </div>
 
     </div>
@@ -251,8 +332,42 @@
 
 
         </div>
-        <nav>
-            <div class="pages">
+        <nav class="pages">
+            <div class="pages_block">
+                <div class="pages_block_numbers">
+                    <a href="#">  <span class="pages_left_arrow">
+                    <
+                </span></a>
+                    <a href="#"><span class="pages_active_page">
+                    1
+                </span></a>
+                    <a href="#"><span class="pages_noactive_page">
+                    2
+                </span></a>
+                    <a href="#"><span class="pages_noactive_page">
+                    3
+                </span></a>
+                    <a href="#"><span class="pages_noactive_page">
+                    4
+                </span></a>
+                    <a href="#"><span class="pages_noactive_page">
+                    5
+                </span></a>
+                    <a href="#"><span class="pages_noactive_page">
+                    6
+                </span></a>
+                    <a href="#"><span class="pages_noactive_page">
+                    ...
+                </span></a>
+                    <a href="#"><span class="pages_noactive_page">
+                    20
+                </span></a>
+                    <a href="#"><span class="pages_right_arrow">
+                    >
+                </span></a>
+                </div>
+
+
             </div>
             <div class="view_all">
                 View All
@@ -262,8 +377,48 @@
 
 </div>
 
+<article class="banner_3">
+    <section class="banner_3_block">
+        <a href="#">
+            <div class="banner_3_block_content">
+                <div class="banner_2_right_string_img">
+                    <img src="img/1322.png">
+                </div>
+                <div class="banner_3_string_text">
+                    <span><p>Free Delivery</p></span>
+                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                </div>
+            </div>
+        </a>
+    </section>
+    <section class="banner_3_block">
+        <a href="#">
+            <div class="banner_3_block_content">
+                <div class="banner_3_string_img">
+                    <img src="img/1340.png">
+                </div>
+                <div class="banner_3_string_text">
+                    <span><p>Sales & discounts</p></span>
+                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                </div>
+            </div>
+        </a>
+    </section>
+    <section class="banner_3_block">
+        <a href="#">
+            <div class="banner_3_block_content">
+                <div class="banner_3_string_img">
+                    <img src="img/1341.png">
+                </div>
+                <div class="banner_3_string_text">
+                    <span><p>Quality assurance</p></span>
+                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                </div>
+            </div>
+        </a>
+    </section>
 
-
+</article>
 
 
 
@@ -308,7 +463,7 @@
     <nav class="footer_row footer_row_margin">
         <p><span class="footer_red_text">COMPANY</span></p>
 
-        <a href="#">Home</a>
+        <a href="index.html">Home</a>
         <a href="#">Shop</a>
         <a href="#">About</a>
         <a href="#">How It Works</a>
@@ -329,7 +484,7 @@
     <nav class="footer_row footer_row_margin">
         <p><span class="footer_red_text">SHOP CATEGORY</span></p>
 
-        <a href="#">Men</a>
+        <a href="product1.html">Men</a>
         <a href="#">Women</a>
         <a href="#">Child</a>
         <a href="#">Apparel</a>
