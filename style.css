@@ -1317,3 +1317,198 @@ form input:required {
     text-transform: uppercase;
 
 }
+.cart_details {
+    margin-top: 90px;
+}
+.cart_product-details {
+    display: flex;
+    justify-content: space-between;
+}
+.cart_product-details-name-box {
+    display: flex;
+    margin-bottom: 52px;
+
+}
+.cart_product-details_name {
+    font-size: 13px;
+    font-weight: bold;
+    color: rgba(34, 34, 34, 1);
+    letter-spacing: -0.01em;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 43px;
+}
+.cart_product-img {
+    height: 115px;
+    width: 100px;
+}
+.cart_product-name {
+    font-size: 13px;
+    color: rgba(34, 34, 34, 1);
+    margin-left: 21px;
+
+    text-transform: uppercase;
+}
+.cart_product-name-name {
+    margin-top: 13px;
+    margin-bottom: 38px;
+}
+.cart_product-option-name {
+    font-size: 13px;
+    color: rgba(87, 87, 87, 1);
+    line-height: 20px;
+}
+.cart_product-option-state {
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(111, 110, 110, 1);
+    line-height: 20px;
+}
+.cart_product-unit-price-text {
+    align-items: center;
+    font-size: 13px;
+    color: rgba(101, 101, 101, 1);
+    line-height: 20px;
+    margin-bottom: 154px;
+}
+.cart_product_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cart_product-quantity {
+    height: 30px;
+    width: 54px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(234, 234, 234, 1);
+    margin-bottom: 137px;
+    text-align: center;
+}
+.cart_product-shipping {
+    font-size: 13px;
+    color: rgba(101, 101, 101, 1);
+    line-height: 20px;
+    margin-bottom: 157px;
+}
+.cart_product-action {
+    font-size: 16px;
+    color: rgba(192, 192, 192, 1);
+    text-align: right;
+    text-transform: uppercase;
+    margin-bottom: 152px;
+}
+
+
+
+.cart_checkout_box-margin {
+    margin-right: 35px;
+}
+.cart_checkout_shipping-adress {
+    display: flex;
+
+}
+.cart_checkout_shipping-adress-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(34, 34, 34, 1);
+    text-transform: uppercase;
+    margin-top: 63px;
+}
+.fieldset {
+   border: none;
+}
+.cart_adress-select {
+    height: 45px;
+    width: 355px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(234, 234, 234, 1);
+    margin-bottom: 25px;
+    padding-left: 18px;
+}
+.cart_adress-button {
+    height: 35px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(234, 234, 234, 1);
+    font-size: 11px;
+    font-weight: bold;
+    color: rgba(74, 74, 74, 1);
+    text-transform: uppercase
+}
+.cart_checkout-coupontext {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 24px;
+}
+.cart_button-coupon {
+    height: 35px;
+    width: 118px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(234, 234, 234, 1);
+    font-size: 11px;
+    font-weight: bold;
+    color: rgba(74, 74, 74, 1);
+    text-transform: uppercase;
+}
+.checkout_subtotal {
+    font-size: 11px;
+    color: rgba(74, 74, 74, 1);
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 40px;
+    margin-bottom: 14px;
+    margin-right: 41px;
+}
+.checkout_total {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(34, 34, 34, 1);
+    text-transform: uppercase;
+    text-align: right;
+    margin-bottom: 40px;
+    margin-right: 41px;
+}
+.checkout_total_span{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(241, 109, 127, 1);
+    text-transform: uppercase;
+}
+.checkout_button_box {
+    height: 50px;
+    width: 273px;
+    background-color: rgba(241, 109, 127, 1);
+    margin-right: 43px;
+    margin-left: 41px;
+
+}
+.checkout_button_box_text {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+}
+.shipping-adress_text-margin {
+
+    margin-bottom: 22px;
+}
+.shipping-adress_select-margin {
+    padding-left: 18px;
+    margin-bottom: 20px;
+}
+.shipping-adress_button-margin {
+    margin-top: 23px;
+}
+.shipping-adress_postcode-margin {
+    padding-left: 18px;
+}
+.shipping-adress_coupon-text-margin {
+    margin-bottom: 28px;
+}
+.cart_checkout_proceed {
+    height: 214px;
+    width: 360px;
+    background-color: rgba(245, 243, 243, 1);
+    margin-top: 63px;
+}

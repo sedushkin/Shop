@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product page</title>
+    <title>Shopping cart</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/33a67843eb.js" crossorigin="anonymous"></script>
@@ -63,92 +63,140 @@
     </section>
     
 
-    <section class="section_adress center">
-        <div class="section_adress_box">
-                <div class="section_adress_title"><p>
-            01. Shipping Adress
-        </p></div>
-    </div>
-        <div class="shipping_adress_block">
-            <div class="shipping_adress_block_left">
-                
-                <p class="shipping_adress_block_text" style="padding-bottom: 15px;">Check as a guest or register</p>
-                <p class="shipping_adress_block_subtext" style="padding-bottom: 34px;">Register with us for future convenience</p>
-                <form action="#" class="who_checkout">
-                    <p style="padding-bottom: 20px;">
-                            <input type="radio" name="who checkout" class="style_checkbox" >
-                                <span style="padding-left: 14px;">checkout as guest
-                                </span>
-                    </p>
-                <p>
-                    <input type="radio" name="who checkout" class="style_checkbox" style="padding-bottom: 33px;" checked>
-                        <span style="padding-left: 14px;">register
-                        </span>
-                </p>
-                <p class="shipping_adress_block_text" style="padding-top: 33px; padding-bottom: 15px;">register and save time!</p> 
-            <p class="shipping_adress_block_subtext" style="padding-bottom: 33px;">Register with us for future convenience</p>
-            <p class="shipping_adress_block_subtext" style="padding-bottom: 15px;">Fast and easy checkout</p> 
-            <p class="shipping_adress_block_subtext" >Easy access to your order history and status</p>
-            <button type="submit" class="continue_button_box">
-                <div><span class="continue_button_box_text">Continue</span></div>
-                        
-                    </button>
-                </form>
+    <section class="cart_details center">
+        <div class="cart_product-details">
+
+            <div>
+                <div class="cart_product-details_name">Product Details</div>
+                <div class="cart_product_box">
+                    <div class="cart_product-details-name-box">
+                        <div><img src="img/2879.png" alt="" class="cart_product-img"></div>
+                        <div class="cart_product-name">
+                            <p class="cart_product-name-name">Mango People T-shirt</p>
+                            <p class="cart_product-option-name">Color: <span class="cart_product-option-state">Red</span></p>
+                            <p class="cart_product-option-name"> Size: <span class="cart_product-option-state">Xll</span></p>
+                        </div>
+
+                    </div>
+                    <div class="cart_product-details-name-box">
+                        <div><img src="img/2905.png" alt="" class="cart_product-img"></div>
+                        <div class="cart_product-name">
+                            <p class="cart_product-name-name">Mango People T-shirt</p>
+                            <p class="cart_product-option-name">Color: <span class="cart_product-option-state">Red</span></p>
+                            <p class="cart_product-option-name"> Size: <span class="cart_product-option-state">Xll</span></p>
+                        </div>
+
+                    </div>
+                    <div class="cart_product-details-name-box">
+                        <div><img src="img/2920.png" alt="" class="cart_product-img"></div>
+                        <div class="cart_product-name">
+                            <p class="cart_product-name-name">Mango People T-shirt</p>
+                            <p class="cart_product-option-name">Color: <span class="cart_product-option-state">Red</span></p>
+                            <p class="cart_product-option-name"> Size: <span class="cart_product-option-state">Xll</span></p>
+                        </div>
+
+                    </div>
+                </div>
 
             </div>
-    
-            <div class="shipping_adress_block_right">
-                <p class="shipping_adress_block_text" style="padding-bottom: 15px;">Already registed?</p>
-                <p class="shipping_adress_block_subtext" style="padding-bottom: 27px;">Please log in below</p>
-                
-                <form class="who_checkout">
-                     <label for="email">Email address<em class="required_red">*</em></label><br>
-                    <input type="email" id="email" class="style_border" style="margin-bottom: 23px; margin-top: 16px;"><br>
-                <label for="password">Password<em class="required_red">*</em></label><br>
-                    <input type="password" id="password" class="style_border" style="margin-top: 16px; margin-bottom: 22px;">
-                    <p class="required_red">* Required Fileds</p>
-                <button type="submit" class="continue_button_box">
-                    <div><span class="continue_button_box_text" style="margin-top: 32px;">Log In</span> </div>
-                        
-                    </button>
-                    <span style="margin-left: 32px;">Forgot Password ?</span>
-                </form>
-               
+            <div>
+                <div class="cart_product-details_name">unite Price</div>
+                <div class="cart_product_box">
+                    <div> <p class="cart_product-unit-price-text">$150</p></div>
+                    <div> <p class="cart_product-unit-price-text">$150</p></div>
+                    <div> <p class="cart_product-unit-price-text">$150</p></div>
+                </div>
+
+
+            </div>
+            <div>
+                <div class="cart_product-details_name">Quantity</div>
+                <div>
+                    <input type="number" id="quantity" value="2" class="cart_product-quantity">
+                </div>
+                <div>
+                    <input type="number" id="quantity" value="2" class="cart_product-quantity">
+                </div>
+                <div>
+                    <input type="number" id="quantity" value="2" class="cart_product-quantity">
+                </div>
+            </div>
+            <div>
+                <div class="cart_product-details_name">shipping</div>
+                <div class="cart_product-shipping">
+                    Free
+                </div>
+                <div class="cart_product-shipping">
+                    Free
+                </div>
+                <div class="cart_product-shipping">
+                    Free
+                </div>
+            </div>
+            <div>
+                <div class="cart_product-details_name">Subtotal</div>
+                <div class="cart_product-shipping">
+                    $300
+                </div>
+                <div class="cart_product-shipping">
+                    $300
+                </div>
+                <div class="cart_product-shipping">
+                    $300
+                </div>
+            </div>
+            <div>
+                <div class="cart_product-details_name">ACTION</div>
+                <div class="cart_product-action"><i class="fas fa-times-circle"></i></div>
+                <div class="cart_product-action"><i class="fas fa-times-circle"></i></div>
+                <div class="cart_product-action"><i class="fas fa-times-circle"></i></div>
             </div>
         </div>
+        <div class="cart_checkout">
+            <form action="#">
+                <div class="cart_checkout_shipping-adress">
+                    <div class="cart_checkout_box-margin">
+                        <fieldset class="fieldset">
+                            <p class="cart_checkout_shipping-adress-text shipping-adress_text-margin">Shipping Adress</p>
+                            <select name="country" id="country" class="cart_adress-select shipping-adress_select-margin"">
+                                <option value="bangladesh">Bangladesh</option>
+                                <option value="russia">Russia</option>
+                            </select>
 
-    </section>
+                            <input type="text" id="state" placeholder="State" class="cart_adress-select shipping-adress_select-margin">
 
-    <section class="center" style="margin-top: 31px; margin-bottom: 31px;">
-        <div class="section_adress_title"><p>
-            02. BILLING INFORMATION
-        </p></div>
-        <div style="border-bottom: 1px solid rgba(232, 232, 232, 1);"></div>
-    </section>
+                            <input type="number" id="Postal" placeholder="Postcode / Zip" class="cart_adress-select shipping-adress_postcode-margin">
+                            <div>
+                                <input type="submit" value="get a quote" class="cart_adress-button shipping-adress_button-margin">
+                            </div>
 
-    <section class="center" style="margin-top: 31px; margin-bottom: 31px;">
-        <div class="section_adress_title"><p>
-           03. SHIPPING INFORMATION
-        </p></div>
-        <div style="border-bottom: 1px solid rgba(232, 232, 232, 1);"></div>
-    </section>
-    <section class="center" style="margin-top: 31px; margin-bottom: 31px;">
-        <div class="section_adress_title"><p>
-           04. SHIPPING METHOD
-        </p></div>
-        <div style="border-bottom: 1px solid rgba(232, 232, 232, 1);"></div>
-    </section>
-    <section class="center" style="margin-top: 31px; margin-bottom: 31px";>
-        <div class="section_adress_title"><p>
-            05. PAYMENT METHOD
-        </p></div>
-        <div style="border-bottom: 1px solid rgba(232, 232, 232, 1);"></div>
-    </section>
-    <section class="center" style="margin-top: 31px; margin-bottom: 31px;">
-        <div class="section_adress_title"><p>
-            06. ORDER REVIEW
-        </p></div>
-        <div style="border-bottom: 1px solid rgba(232, 232, 232, 1);"></div>
+                        </fieldset>
+                    </div>
+                    <div class="cart_checkout_box-margin">
+                        <fieldset class="fieldset">
+                            <p class="cart_checkout_shipping-adress-text shipping-adress_coupon-text-margin">coupon discount</p>
+
+                            <p class="cart_checkout-coupontext">Enter your coupon code if you have one</p>
+
+                            <input type="text" id="coupon" placeholder="Coupon" class="cart_adress-select">
+
+                            <input type="submit" value="Apply coupon" class="cart_button-coupon">
+                        </fieldset>
+                    </div>
+                    <div class="cart_checkout_proceed">
+                        <p class="checkout_subtotal">Sub total $900</p>
+                        <p class="checkout_total">GRAND TOTAL <span class="checkout_total_span">$900</span> </p>
+                        <button type="submit" class="checkout_button_box">
+                            <div><span class="checkout_button_box_text"">proceed to checkout</span> </div>
+
+                        </button>
+                    </div>
+
+
+
+                </div>
+            </form>
+        </div>
     </section>
 
     <article class="subscribe_block center">
