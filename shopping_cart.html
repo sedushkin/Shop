@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product page</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/33a67843eb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header center">
+        <div class="header__left">
+            <a href="index.html" class="logo">
+                <img class="logo__img" src="img/18.png" alt="logo">BRAN<span class="logo_red_letter">D</span>
+            </a>
+            <form class="header__form" action="#">
+                <div class="header__browse">Browse</div>
+
+                <div class="input_search_div">
+                    
+                    <input type="text" class="input_search_form" value="Search for Item...">
+
+                <button class="search_button">
+                    <span style="font-size: 14px; color: rgba(164, 164, 164, 1);">
+                        <i class="fas fa-search"></i>
+                    </span>
+                </button>
+
+
+                </div>
+                
+
+            </form>
+        </div>
+        <div class="header__right">
+            <img class="header__cart" src="img/cart.png" alt="cart">
+            <a href="" class="button"> My Account <span style="font-size: 14px; color: rgba(255, 255, 255, 1);text-align: right; letter-spacing: 0.03em; line-height: 32px;"><i class="fas fa-caret-down"></i></span></a>
+        </div>
+    </header>
+    <nav class="nav center">
+        <ul class="menu">
+            <li class="menu__list"><a class="menu__link" href="index.html">Home </a></li>
+            <li class="menu__list"><a class="menu__link" href="product1.html">Man </a></li>
+            <li class="menu__list"><a class="menu__link" href="#">Women </a></li>
+            <li class="menu__list"><a class="menu__link" href="#">Kids </a></li>
+            <li class="menu__list"><a class="menu__link" href="#">Accoseriese </a></li>
+            <li class="menu__list"><a class="menu__link" href="#">Featured </a></li>
+            <li class="menu__list"><a class="menu__link" href="#">Hot Deals</a></li>
+        </ul>
+    </nav>
+ 
+    <section class="product_page_title">
+        <div class="product_page_title_name">
+            <p>New Arrivals</p>
+        </div>
+        <nav class="product_page_breadcrumbs">
+            <p>
+                <a href="index.html">Home</a> / <a href="product1.html">Men</a>  / <span>New Arrivals</span></p>
+        </nav>
+    </section>
+    
+
+    <section class="section_adress center">
+        <div class="section_adress_box">
+                <div class="section_adress_title"><p>
+            01. Shipping Adress
+        </p></div>
+    </div>
+        <div class="shipping_adress_block">
+            <div class="shipping_adress_block_left">
+                
+                <p class="shipping_adress_block_text" style="padding-bottom: 15px;">Check as a guest or register</p>
+                <p class="shipping_adress_block_subtext" style="padding-bottom: 34px;">Register with us for future convenience</p>
+                <form action="#" class="who_checkout">
+                    <p style="padding-bottom: 20px;">
+                            <input type="radio" name="who checkout" class="style_checkbox" >
+                                <span style="padding-left: 14px;">checkout as guest
+                                </span>
+                    </p>
+                <p>
+                    <input type="radio" name="who checkout" class="style_checkbox" style="padding-bottom: 33px;" checked>
+                        <span style="padding-left: 14px;">register
+                        </span>
+                </p>
+                <p class="shipping_adress_block_text" style="padding-top: 33px; padding-bottom: 15px;">register and save time!</p> 
+            <p class="shipping_adress_block_subtext" style="padding-bottom: 33px;">Register with us for future convenience</p>
+            <p class="shipping_adress_block_subtext" style="padding-bottom: 15px;">Fast and easy checkout</p> 
+            <p class="shipping_adress_block_subtext" >Easy access to your order history and status</p>
+            <button type="submit" class="continue_button_box">
+                <div><span class="continue_button_box_text">Continue</span></div>
+                        
+                    </button>
+                </form>
+
+            </div>
+    
+            <div class="shipping_adress_block_right">
+                <p class="shipping_adress_block_text" style="padding-bottom: 15px;">Already registed?</p>
+                <p class="shipping_adress_block_subtext" style="padding-bottom: 27px;">Please log in below</p>
+                
+                <form class="who_checkout">
+                     <label for="email">Email address<em class="required_red">*</em></label><br>
+                    <input type="email" id="email" class="style_border" style="margin-bottom: 23px; margin-top: 16px;"><br>
+                <label for="password">Password<em class="required_red">*</em></label><br>
+                    <input type="password" id="password" class="style_border" style="margin-top: 16px; margin-bottom: 22px;">
+                    <p class="required_red">* Required Fileds</p>
+                <button type="submit" class="continue_button_box">
+                    <div><span class="continue_button_box_text" style="margin-top: 32px;">Log In</span> </div>
+                        
+                    </button>
+                    <span style="margin-left: 32px;">Forgot Password ?</span>
+                </form>
+               
+            </div>
+        </div>
+
+    </section>
+
+    <section class="center" style="margin-top: 31px; margin-bottom: 31px;">
+        <div class="section_adress_title"><p>
+            02. BILLING INFORMATION
+        </p></div>
+        <div style="border-bottom: 1px solid rgba(232, 232, 232, 1);"></div>
+    </section>
+
+    <section class="center" style="margin-top: 31px; margin-bottom: 31px;">
+        <div class="section_adress_title"><p>
+           03. SHIPPING INFORMATION
+        </p></div>
+        <div style="border-bottom: 1px solid rgba(232, 232, 232, 1);"></div>
+    </section>
+    <section class="center" style="margin-top: 31px; margin-bottom: 31px;">
+        <div class="section_adress_title"><p>
+           04. SHIPPING METHOD
+        </p></div>
+        <div style="border-bottom: 1px solid rgba(232, 232, 232, 1);"></div>
+    </section>
+    <section class="center" style="margin-top: 31px; margin-bottom: 31px";>
+        <div class="section_adress_title"><p>
+            05. PAYMENT METHOD
+        </p></div>
+        <div style="border-bottom: 1px solid rgba(232, 232, 232, 1);"></div>
+    </section>
+    <section class="center" style="margin-top: 31px; margin-bottom: 31px;">
+        <div class="section_adress_title"><p>
+            06. ORDER REVIEW
+        </p></div>
+        <div style="border-bottom: 1px solid rgba(232, 232, 232, 1);"></div>
+    </section>
+
+    <article class="subscribe_block center">
+        <div class="subscribe_block_content">
+            <section class="subscribe_block_content_left">
+                <div class="subscribe_block_content_left_img">
+                    <img src="img/2206.png">
+                </div>
+                <blockquote class="subscribe_block_content_left_text">
+                    <p class="subscribe_block_content_left_text_quote">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                    <p class="subscribe_block_content_left_text_name">Bin Burhan</p>
+                    <p class="subscribe_block_content_left_text_country">Dhaka, Bd</p>                    
+                </blockquote>
+            </section>
+
+            <section class="subscribe_block_content_right">
+                <div class="subscribe_block_content_right_text">
+                    <span class="subscribe_block_content_right_text_subscribe"><p>Subscribe</p></span> 
+                    <span class="subscribe_block_content_right_text_promoution"><p>FOR OUR NEWLETTER AND PROMOTION</p></span>
+                </div>
+                <form action="#" class="subscribe_block_content_right_form">
+                    <input type="mail" class="input_subscribe_form" placeholder="Enter Your Email">
+                    <button type="submit" class="subscribe_button">
+                    Subscribe                    
+                    </button>
+                </form>
+                
+            </section>
+        </div>
+    </article>
+    <footer class="footer center">
+         <article class="footer_row">
+             <p><img src="img/18.png"><span class="footer_name">BRAN</span> <span class="red_letter">D</span></p>
+             <span class="footer_text"><p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p>
+             <p>Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize. Objectively strategize seamless relationships via resource sucking testing procedures. Proactively cultivate next-generation results for value-added methodologies. Dynamically plagiarize unique methodologies after performance based methodologies. Monotonectally empower stand-alone mindshare rather than ubiquitous opportunities. Dynamically orchestrate resource sucking scenarios after alternative synergy. Compellingly envisioneer corporate methods of empowerment before standards compliant technologies. Objectively facilitate progressive.</p></span>
+         </article>
+         <nav class="footer_row footer_row_margin">
+             <p><span class="footer_red_text">COMPANY</span></p>
+             
+             <a href="index.html">Home</a>
+             <a href="#">Shop</a> 
+             <a href="#">About</a> 
+             <a href="#">How It Works</a> 
+             <a href="#">Contact</a>
+
+         </nav>
+         <nav class="footer_row footer_row_margin">
+             <p><span class="footer_red_text">INFORMATION</span></p>
+                 
+             <a href="#">Tearms & Condition</a> 
+             <a href="#">Privacy Policy</a> 
+             <a href="#">How to Buy</a> 
+             <a href="#">How to Sell</a> 
+             <a href="#">Promotion</a>
+
+         </nav>
+
+         <nav class="footer_row footer_row_margin">
+             <p><span class="footer_red_text">SHOP CATEGORY</span></p>
+                     
+             <a href="product1.html">Men</a>
+             <a href="#">Women</a> 
+             <a href="#">Child</a> 
+             <a href="#">Apparel</a> 
+             <a href="#">Brows All</a>
+
+         </nav>
+    </footer>
+   <footer class="copyright center">
+        <div class="copyright_left">
+            <p>© 2020 Brand All Rights Reserved.</p>
+        </div>
+        <nav class="copyright_right">
+            <div class="social_pics"><a href="#"><span class="social_pics_awesome"><i class="fab fa-facebook-f"></i></span></a></div>
+            <div class="social_pics"><a href="#"><span class="social_pics_awesome"><i class="fab fa-twitter"></i></span></a></div>
+            <div class="social_pics"><a href="#"><span class="social_pics_awesome"><i class="fab fa-linkedin-in"></i></span></a></div>
+            <div class="social_pics"><a href="#"><span class="social_pics_awesome"><i class="fab fa-pinterest-p"></i></span></a></div>
+            <div class="social_pics"><a href="#"><span class="social_pics_awesome"><i class="fab fa-google-plus-g"></i></span></a></div>
+          
+        </nav>
+    </footer>
+</body>
+
+</html>
