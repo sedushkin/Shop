@@ -83,6 +83,23 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   line-height: 36px;
+  position: relative;
+}
+
+.header__form {
+  display: flex;
+  align-items: center;
+  margin-left: 37px;
+}
+
+.header__browse[open] .drop {
+  display: flex;
+  top: 23px;
+  z-index: 1;
+}
+
+.header__browse:hover {
+  color: #f16d7f;
 }
 
 .header__form {
@@ -126,6 +143,19 @@ a {
   margin-right: 26px;
 }
 
+.shopping_cart_fly_box[open] .drop {
+  display: flex;
+  top: 23px;
+  z-index: 1;
+}
+
+details:focus,
+summary:focus,
+input:focus {
+  outline: 0;
+  outline: none;
+}
+
 details summary::-webkit-details-marker {
   display: none;
 }
@@ -139,19 +169,126 @@ details[open] summary {
   border-radius: 5px;
 }
 
+.drop {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 12px 20px;
+  position: absolute;
+  display: none;
+  top: 51px;
+  border: 1px solid #ececec;
+}
+
+.drop-cart {
+  background-color: #ffffff;
+  border-radius: 5px;
+  position: absolute;
+  border: 1px solid #ececec;
+  margin-top: 16px;
+}
+
+.drop_last {
+  right: 0;
+}
+
+.drop__flex {
+  width: 234px;
+  margin-right: 46px;
+}
+
+.drop-cart__flex {
+  width: 239px;
+  padding: 17px 15px 20px 17px;
+  right: 0;
+}
+
+.drop__flex:last-of-type {
+  margin-right: 0;
+}
+
+.drop__h3 {
+  font-size: 14px;
+  color: #232323;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  margin-bottom: 8px;
+}
+
+.drop__ul {
+  list-style-type: none;
+}
+
+.drop__link {
+  font-size: 14px;
+  color: #646464;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+}
+
+.drop__link:hover {
+  color: #f16d7f;
+}
+
 .shopping_cart_fly_box {
   background-color: white;
 }
 
+.product_cart_box {
+  display: flex;
+  align-items: center;
+}
+
+.cart_delete {
+  padding-left: 40px;
+  font-size: 16px;
+  color: silver;
+  text-align: right;
+  text-transform: uppercase;
+}
+
 .product_cart_fly {
   display: flex;
-  padding-left: 17px;
-  padding-right: 15px;
-  padding-top: 21px;
+  margin-bottom: 33px;
 }
 
 .product_cart_fly img {
   padding-right: 15px;
+}
+
+.product_cart_product {
+  display: flex;
+}
+
+.product_cart_text {
+  font-size: 12px;
+  font-weight: bold;
+  color: #222222;
+  text-align: right;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.product_cart_price-text {
+  font-size: 12px;
+  color: #f16d7f;
+  text-transform: uppercase;
+  padding-top: 12px;
+}
+
+.stars {
+  font-size: 12px;
+  color: #e4af48;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.product_cart_fly_total_price {
+  margin-top: 4px;
+  margin-bottom: 32px;
 }
 
 .product_cart_fly_totalprice_text {
@@ -159,8 +296,6 @@ details[open] summary {
   font-weight: bold;
   color: #222222;
   text-transform: uppercase;
-  padding-top: 19px;
-  padding-bottom: 32px;
 }
 
 .justify_spacebetween {
@@ -169,31 +304,35 @@ details[open] summary {
 }
 
 .product_cart_fly_button_chekout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 50px;
   width: 225px;
   text-decoration: none;
   border: 1px solid #f16d7f;
-  padding-bottom: 11px;
+  margin-bottom: 11px;
 }
 
-.product_cart_fly_button_chekout a {
+.product_cart_fly_button_chekout_text {
   font-size: 14px;
   font-weight: bold;
   color: #f16d7f;
   text-transform: uppercase;
-  text-align: center;
-  vertical-align: middle;
 }
 
 .product_cart_fly_button_gotocart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 50px;
   width: 225px;
   background-color: white;
   border: 1px solid #eaeaea;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-.product_cart_fly_button_gotocart a {
+.product_cart_fly_button_gotocart_text {
   font-size: 14px;
   font-weight: bold;
   color: #4a4a4a;
@@ -231,10 +370,19 @@ details[open] summary {
 }
 
 .menu__link:hover {
+  color: #f16d7f;
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+.menu__list {
+  position: relative;
+}
+
+.menu__list:hover .drop {
+  display: flex;
 }
 
 .promo {
@@ -655,6 +803,10 @@ a.buttons:hover {
   letter-spacing: 0.03em;
   line-height: 46px;
   margin-left: -52px;
+}
+
+.subscribe_button:hover {
+  box-shadow: 0 0 5px #000000;
 }
 
 .footer {
